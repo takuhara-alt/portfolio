@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java エンジニア × シーシャ愛好家</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+</head>
+<body>
+   
+    
+    
+    <!-- プレイリスト -->
+    <!--<div class="playlist">
+        <div class="playlist-icon">🎵</div>
+        <div class="playlist-info">
+            <div class="playlist-title">Chill Lounge Mix</div>
+            <div class="playlist-artist">Lofi Beats</div>
+        </div>
+        <div class="playlist-controls">
+            <button class="playlist-btn prev-btn">⏮</button>
+            <button class="playlist-btn pause-btn">⏸</button>
+            <button class="playlist-btn play-btn">▶</button>
+            <button class="playlist-btn next-btn">⏭</button>
+        </div>
+    </div> -->
+    
+    <!-- ヘッダー -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>原 拓哉</h1>
+                <h2>(Java エンジニア × シーシャ愛好家 )</h2>
+                <p>コードを書くように、煙を紡ぐ。技術とリラクゼーションの融合を追求するエンジニア。</p>
+            </div>
+        </div>
+        <div class="scroll-down">スクロールして続きを見る</div>
+    </header>
+    
+    <!-- ナビゲーション -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#shisha" class="nav-link">シーシャ</a></li>
+                <li><a href="#skills" class="nav-link">スキル</a></li>
+                <li><a href="#frameworks" class="nav-link">フレームワーク</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- プロフィール -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/placeholder.svg?height=220&width=220" alt="プロフィール画像">
+                    <div class="image-decoration"></div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>Javaを中心としたバックエンド開発を専門とするエンジニアです。日々のコーディングの合間には、お気に入りのシーシャでリラックスすることが私のルーティン。</p>
+                    <p>学生時代からシーシャバーでアルバイトをしており、様々なフレーバーや煙の出し方に詳しく、今ではプライベートでもシーシャ会を主催するほど。技術的な問題解決と同じように、最高の一服を追求することに情熱を注いでいます。</p>
+                    <p>休日はバイクでツーリングに出かけたり、没頭できるゲームを楽しんだりしています。リラックスした状態で生まれる発想が、時に最高のコードを生み出すと信じています。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 開発エディタ -->
+    <section class="editors">
+        <div class="container">
+            <h2 class="section-title">開発エディタ</h2>
+            <div class="editors-grid">
+                <div class="editor-card">
+                    <div class="editor-icon">
+                        <img src="image/Visual_Studio_Code_1.35_icon.png" alt="VSCode">
+                    </div>
+                    <h3>Visual Studio Code</h3>
+                    <p>フロントエンド開発やちょっとした編集作業に使用。拡張機能の豊富さと軽量さが魅力。</p>
+                </div>
+                <div class="editor-card">
+                    <div class="editor-icon">
+                        <img src="image/com.jetbrains.IntelliJ-IDEA-Ultimate.png" alt="IntelliJ">
+                    </div>
+                    <h3>IntelliJ IDEA</h3>
+                    <p>Java開発のメインエディタ。強力なリファクタリング機能とデバッグツールが開発効率を大幅に向上。</p>
+                </div>
+                <div class="editor-card">
+                    <div class="editor-icon">
+                        <img src="image/pulsar_name.svg" alt="Pulsar">
+                    </div>
+                    <h3>Pulsar</h3>
+                    <p>最近試し始めたエディタ。Atomの後継として期待している。カスタマイズ性の高さが気に入っている。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- シーシャ特集 -->
+    <section id="shisha" class="shisha">
+        <div class="container">
+            <h2 class="section-title">シーシャの世界</h2>
+            <div class="shisha-content">
+                <div class="shisha-intro">
+                    <p>シーシャ（水タバコ）は単なる趣味を超え、私の生活の一部となっています。コードを書く合間のリラックスタイムや、友人とのソーシャルな時間に欠かせない存在です。アルバイト経験を活かして、自宅でも本格的なセッションを楽しんでいます。</p>
+                </div>
+                <h3 class="flavors-title">お気に入りフレーバー</h3>
+                <div class="flavors-grid">
+                    <div class="flavor-card">
+                        <div class="flavor-icon">🥤</div>
+                        <h3>DARK SIDE<br>COLA</h3>
+                        <p>強めのタバコ感と本格的なコーラの風味が特徴。濃厚な煙と強めのキックが楽しめる、深夜のコーディングセッションに最適なフレーバー。</p>
+                        <div class="flavor-rating">★★★★★</div>
+                    </div>
+                    <div class="flavor-card">
+                        <div class="flavor-icon">🌿</div>
+                        <h3>AL FAKHER <br> Mint </h3>
+                        <p>爽やかさと優しさのバランスが絶妙なミント。強すぎない清涼感が長時間のセッションでも疲れない。デバッグ作業中の気分転換に最適。</p>
+                        <div class="flavor-rating">★★★★☆</div>
+                    </div>
+                    <div class="flavor-card">
+                        <div class="flavor-icon">🌲</div>
+                        <h3>JiBiAR <br> TAIGA</h3>
+                        <p>ミントとパインの森林を思わせる独特な風味。複雑な問題を解決する時に頭をクリアにしてくれる、創造性を刺激するフレーバー。</p>
+                        <div class="flavor-rating">★★★★★</div>
+                    </div>
+                    <div class="flavor-card">
+                        <div class="flavor-icon">🫐</div>
+                        <h3>AL FAKHER<br>TWO Apple</h3>
+                        <p>ダブルアップルの甘さと深みのある味わいが特徴。安定した煙の出方と親しみやすい味わいで、リラックスしたい夜のコーディングに最適。</p>
+                        <div class="flavor-rating">★★★★☆</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shisha-bg-decoration"></div>
+    </section>
+    
+    <!-- 趣味・興味 -->
+    <section class="interests">
+        <div class="container">
+            <h2 class="section-title">趣味・興味</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon">🎮</div>
+                    <h3>ゲーム</h3>
+                    <p>RPGやストラテジーゲームが特に好き。ゲームの世界観に没頭することで、現実世界での創造性も高まると感じています。最近はインディーゲームにも興味があります。</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">🏍️</div>
+                    <h3>バイク</h3>
+                    <p>バイク免許を取得して以来、週末のツーリングが楽しみの一つ。風を感じながら走ることで、頭の中がクリアになり、新しいアイデアが生まれることも。</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">💻</div>
+                    <h3>コーディング</h3>
+                    <p>仕事だけでなく趣味としても楽しんでいます。特に新しい技術やフレームワークを試すのが好きで、個人プロジェクトを通じて常に学び続けています。</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">💨</div>
+                    <h3>シーシャ</h3>
+                    <p>様々なフレーバーを試すのが楽しみ。フレーバーのミックスを考えたり、新しい作り方を研究するのが楽しみです。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- スキル -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">スキルセット</h2>
+            <div class="skills-content">
+                <div class="chart-container">
+                    <canvas id="skillChart"></canvas>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Java</span>
+                            <span>5/5</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML/CSS</span>
+                            <span>4/5</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>PHP</span>
+                            <span>3/5</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>COBOL</span>
+                            <span>3/5</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>C#/C++</span>
+                            <span>2/5</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 40%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>シーシャ</span>
+                            <span>5/5</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-bg-decoration"></div>
+    </section>
+    
+    <!-- フレームワーク -->
+    <section id="frameworks" class="frameworks">
+        <div class="container">
+            <h2 class="section-title">フレームワーク経験</h2>
+            <div class="frameworks-grid">
+                <div class="framework-card">
+                    <h3>Spring Boot</h3>
+                    <p>主に使用しているJavaフレームワーク。シーシャを楽しみながら書くコードは特に洗練されます。<br></p>
+                </div>
+                <div class="framework-card">
+                    <h3>Play Framework</h3>
+                    <p>Javaのウェブアプリケーションフレームワーク。個人開発の域だけどセキュリティが全然わかんない</p>
+                </div>
+                <div class="framework-card">
+                    <h3>Laravel</h3>
+                    <p>PHPのフレームワーク。本当に一定期間だけ触って終わった</p>
+                </div>
+                <div class="framework-card">
+                    <h3>React</h3>
+                    <p>フロントエンド開発で使用。ハッカソンでおせわになりました最初のポートフォリオもこちらで作ろうか考えました</p>
+                </div>
+                <div class="framework-card">
+                    <h3>Node.js</h3>
+                    <p>バックエンドJavaScript。最近は触ってないですねReact使ってた時はNextとNodeでどっちがいいかなーってくらいには</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    
+    
+    <!-- フッター -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact</h3>
+                <p>メール: example@email.com</p>
+                <div class="social-links">
+                    <a href="https://github.com/takuhara-alt" class="social-link" target="_blank">G</a>
+                    <a href="#" class="social-link">L</a>
+                    <a href="#" class="social-link">T</a>
+                </div>
+                <p>&copy; 2025 原拓哉. All Rights Reserved.</p>
+                <p>シーシャとコーディングは20歳になってから。</p>
+            </div>
+        </div>
+        <div class="footer-bg"></div>
+    </footer>
+    
+    <script src="Javascipt/script.js"></script>
+</body>
+</html>
